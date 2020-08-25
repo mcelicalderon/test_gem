@@ -28,7 +28,7 @@ gem 'cancancan'
 # Throttle abusive requests
 gem 'rack-attack'
 # Shield sensitive columns
-gem 'hypershield'
+# gem 'hypershield'
 
 ## ADMIN TOOLS ##
 # Use rails_admin for admin
@@ -48,8 +48,8 @@ gem 'str_enum'
 gem 'safely_block'
 
 # Analytics
-gem 'ahoy_matey'
-gem 'ahoy_email'
+# gem 'ahoy_matey'
+# gem 'ahoy_email'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
