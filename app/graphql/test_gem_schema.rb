@@ -1,10 +1,9 @@
 class TestGemSchema < GraphQL::Schema
   use GraphqlDevise::SchemaPlugin.new(
-    authenticate_default: false,
-    query:            Types::QueryType,
-    mutation:         Types::MutationType,
+    query: Types::QueryType,
+    mutation: Types::MutationType,
     resource_loaders: [
-      GraphqlDevise::ResourceLoader.new('User'),
+      GraphqlDevise::ResourceLoader.new('User')
     ]
   )
   mutation(Types::MutationType)

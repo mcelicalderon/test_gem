@@ -1,3 +1,3 @@
-class ApplicationController < ActionController::Base
+class ApplicationController < ActionController::API
   include GraphqlDevise::Concerns::SetUserByToken
 end
